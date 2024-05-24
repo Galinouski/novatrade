@@ -1,0 +1,11 @@
+{
+  "name": "mysite2.loc",
+  "version": "1.0.0",
+  "description": "<p><img src=\"https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png\" alt=\"Start HTML Template\"></p>\r <p>Clone:</p>\r <pre>git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore readme.md .git</pre>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
