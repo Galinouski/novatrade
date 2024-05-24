@@ -7,21 +7,42 @@
 
 /* lg <= Extra large (xl) */
 @media (max-width : 1200px) {
+	.main-menu{
+		display: none;
+	}
 
 }
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+	.main-menu{
+		display: none;
+	}
+	.phone-wrap {
+		display: none;
+	}
 
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+	.main-menu{
+		display: none;
+	}
+	.phone-wrap {
+		display: none;
+	}
 
 }
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
+	.main-menu{
+		display: none;
+	}
+	.phone-wrap {
+		display: none;
+	}
 
 }
 
