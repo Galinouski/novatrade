@@ -142,7 +142,7 @@ body {
 	display: block;
 	transition: color .25s ease, background-color .25s ease;
 }
-.phone-wrap ul li .phone {
+.phone-wrap .phone {
 	padding-right: 50px;
 }
 
@@ -171,20 +171,50 @@ body {
 } 
 
 .mobile-menu {
+	padding-top: 20px;
+	text-align: left;
 	display: none;
 	background-color: var(--accent2);
 }
 
-.mobile-menu .top-menu {
+.mobile-menu .nav {
 	display: block;
 }
 		
-.mobile-menu .top-menu li {
+.mobile-menu .nav li {
 	display: block;
 }
 		
-.mobile-menu .top-menu li a {
-	padding: 0;
-	line-height: 45px;
+.mobile-menu .nav li a {
+	
+	color: var(--text);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: var(--userfont);
+	padding: 0 7px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0.07em;
+	transition: color .25s ease, background-color .25s ease;
 }
-			
+.mobile-menu .contacts{
+	text-align: left;
+	display: block;
+	padding-left: 33px;
+}
+
+.mobile-menu .contacts a {
+	width: max-content;
+	color: var(--text);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: var(--userfont);
+	padding: 0 3px;
+	font-size: 16px;
+	font-weight: 700;
+	transition: color .25s ease, background-color .25s ease;
+}
+.mobile-menu .menu-logo{
+	border-bottom: #99A2B5 1px solid;
+}
