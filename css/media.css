@@ -1,7 +1,50 @@
 /* === DESKTOP FIRST === */
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1520px) {
+	.main-menu{
+		display: none;
+	}
+	.mobile-menu-button {
+		display: block;
+	}
+	.logo{
+		left:10px;
+	}
+	.phone-wrap {
+		right: 10px;
+	}
+
+}
 
 /* xl <= Extra extra large (xxl) */
 @media (max-width : 1400px) {
+	.main-menu{
+		display: none;
+	}
+	.mobile-menu-button {
+		display: block;
+	}
+	.logo{
+		left:10px;
+	}
+	.phone-wrap {
+		right: 10px;
+	}
+
+}
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1300px) {
+	.main-menu{
+		display: none;
+	}
+	.logo{
+		left:10px;
+	}
+	.phone-wrap {
+		right: 10px;
+	}
+
 
 }
 
@@ -10,7 +53,12 @@
 	.main-menu{
 		display: none;
 	}
-
+	.logo{
+		left:10px;
+	}
+	.phone-wrap {
+		right: 10px;
+	}
 }
 
 /* md <= Large (lg) */
@@ -18,19 +66,23 @@
 	.main-menu{
 		display: none;
 	}
+	.logo{
+		left:10px;
+	}
 	.phone-wrap {
-		display: none;
+		right: 10px;
 	}
 
 }
-
-/* sm <= Medium (md) */
 @media (max-width : 768px) {
 	.main-menu{
 		display: none;
 	}
+	.logo{
+		left:10px;
+	}
 	.phone-wrap {
-		display: none;
+		right: 10px;
 	}
 
 }
@@ -43,7 +95,15 @@
 	.phone-wrap {
 		display: none;
 	}
-
+	.mobile-menu-button {
+		right: 20px;
+	}
+	.logo{
+		display: none;
+	}
+	.mobile-menu-logo {
+		display: block;
+	}
 }
 
 
