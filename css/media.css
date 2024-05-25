@@ -11,7 +11,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 
 }
@@ -28,7 +28,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 
 }
@@ -42,7 +42,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 
 
@@ -57,7 +57,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 }
 
@@ -70,7 +70,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 
 }
@@ -82,7 +82,7 @@
 		left:10px;
 	}
 	.phone-wrap {
-		right: 10px;
+		display: none;
 	}
 
 }
@@ -94,9 +94,6 @@
 	}
 	.phone-wrap {
 		display: none;
-	}
-	.mobile-menu-button {
-		right: 20px;
 	}
 	.logo{
 		display: none;

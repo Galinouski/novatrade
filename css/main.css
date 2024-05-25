@@ -154,7 +154,7 @@ body {
 	font-weight: bold;
 	white-space: nowrap;
 	line-height: 72px;
-	right: 300px;
+	right: 20px;
 	display: none; 
 } 
 .mobile-menu-logo {
@@ -169,3 +169,22 @@ body {
 	padding-left: 20px;
 	display: none; 
 } 
+
+.mobile-menu {
+	display: none;
+	background-color: var(--accent2);
+}
+
+.mobile-menu .top-menu {
+	display: block;
+}
+		
+.mobile-menu .top-menu li {
+	display: block;
+}
+		
+.mobile-menu .top-menu li a {
+	padding: 0;
+	line-height: 45px;
+}
+			
