@@ -15,7 +15,7 @@
 
 /* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
-.row, .row > * { --bs-gutter-x: 1.25rem; }
+.row, .row > * { --bs-gutter-x: 0; }
 
 /* FONTS LOAD SECTION */
 
@@ -265,11 +265,38 @@ section h2 {
 }
 .item-title-content-2{
 	position: absolute;
-	bottom: 20px;
+	padding-top: 100px;
 	line-height: 30px;
 	color: #FBFBFC;
 	z-index: 1;
 	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 0.04em;
+}
+
+.item-title-3 {
+	margin-top: 20px;
+	min-height: 112px;
+	border: #99A2B5 1px solid;
+}
+.item-title-content-3{
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	position: absolute;
+	color: #FBFBFC;
+	z-index: 1;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.04em;
+}
+.item-title-4 {
+	min-height: 50px;
+}
+.item-title-content-4{
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	text-transform: uppercase;
 }
