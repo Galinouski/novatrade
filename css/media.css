@@ -1,5 +1,11 @@
 /* === DESKTOP FIRST === */
 /* xl <= Extra extra large (xxl) */
+@media (max-width : 1525px) {
+	.mobile-menu{
+		display: none;
+	}
+}
+
 @media (max-width : 1520px) {
 	.main-menu{
 		display: none;

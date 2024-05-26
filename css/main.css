@@ -7,7 +7,7 @@
 	--text2: #181C2C;
 	--regular-text: 22px;
 	--lineheight: 1.65;
-	--userfont: roboto-st, sans-serif;
+	--userfont:ibmplexsanslight, roboto-st, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
@@ -23,6 +23,7 @@
 @font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
 @font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
 @font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
+@font-face { src: url("../fonts/Ibmplexsanslight.woff2") format("woff2"); font-family: "ibmplexsanslight"; font-weight: 400; font-style: normal; }
 
 /* GENERAL CSS SETTINGS */
 
@@ -215,6 +216,47 @@ body {
 	font-weight: 700;
 	transition: color .25s ease, background-color .25s ease;
 }
-.mobile-menu .menu-logo{
+.mobile-menu .menu-logo {
 	border-bottom: #99A2B5 1px solid;
+}
+.container-fluid {
+	max-width: 1346px;
+	padding: 0 20px;
+}
+
+.ad {
+	text-align: center;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+	
+.top-ad{
+	padding-bottom: 20px;
+}
+
+section {
+	background-color: #1B424D;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+section h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 800;
+}
+.item-title {
+	min-height: 288px;
+	min-width: 608px;
+}
+.item-title-content{
+	top:0;
+	padding-left: 250px;
+	line-height: 30px;
+	color: #FBFBFC;
+	z-index: 1;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.22em;
 }
