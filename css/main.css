@@ -277,7 +277,7 @@ section h2 {
 
 .item-title-3 {
 	position: relative;
-	padding-right: 40px;
+	padding-right: 50px;
 	margin-top: 40px;
 	min-height: 112px;
 	border: #99A2B5 1px solid;
@@ -287,6 +287,7 @@ section h2 {
 }
 .item-title-content-3{
 	position: relative;
+	padding-right: 40px;
 	padding-top: 30px;
 	padding-left: 30px;
 	text-align: left;
@@ -310,21 +311,4 @@ section h2 {
 	text-transform: uppercase;
 }
 
-.pattern2 {
-	background-color: #36DFE3;
-}
 
-/* .pattern2 :hover{
-	content: "";
-	z-index: 1;
-	background-color: #36DFE3;
-	background-size: cover;
-	background-position: center;
-	color: #181C2C;
-	position: relative;
-	display: block;
-	top:0;
-	left:0;
-	right: 0;
-	bottom: 0;
-} */

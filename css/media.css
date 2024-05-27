@@ -150,6 +150,18 @@
 	.item-title-3 .arrow {
 		padding-left: 420px;
 	}
+	.item-title-3 .arrow {
+		padding-left: 310px;
+		padding-top: 10px;
+	}
+	.item-title-content-3 {
+		font-size: 14px;
+		padding-right: 50px;
+		min-width: unset;
+	}
+	.item-title-content-2 {
+        min-width: unset;
+	}
 }
 
 /* xs <= Small (sm) */
