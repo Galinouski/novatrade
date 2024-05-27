@@ -69,7 +69,7 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	position: absolute;
-	left: 280px;
+	left: 260px;
 	line-height: 72px;
 }
 .hr-top{
@@ -264,7 +264,8 @@ section h2 {
 	padding-top: 50px;
 }
 .item-title-content-2{
-	position: absolute;
+	position: relative;
+	min-width: 608px;
 	padding-top: 100px;
 	line-height: 30px;
 	color: #FBFBFC;
@@ -275,6 +276,8 @@ section h2 {
 }
 
 .item-title-3 {
+	position: relative;
+	padding-right: 40px;
 	margin-top: 40px;
 	min-height: 112px;
 	border: #99A2B5 1px solid;
@@ -283,8 +286,7 @@ section h2 {
 	font-weight: 400;
 }
 .item-title-content-3{
-	position: absolute;
-	min-width: 608px;
+	position: relative;
 	padding-top: 30px;
 	padding-left: 30px;
 	text-align: left;
