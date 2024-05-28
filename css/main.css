@@ -338,4 +338,27 @@ section h2 {
 	padding-bottom: 60px;
 }
 
+.item-title-6 {
+	position: relative;
+	padding-right: 100px;
+	min-height: 112px;
+	border: #99A2B5 1px solid;
+	color: #FBFBFC;
+	font-size: 22px;
+	font-weight: 600;
+}
+.item-title-content-6{
+	color: #181C2C;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	text-transform: none;
+	z-index: 1;
+	letter-spacing: 0.04em;
+}
+.item-title-6 .circle{
+	padding-right: 10px;
+}
+
 
