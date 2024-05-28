@@ -247,7 +247,7 @@ section h2 {
 }
 .item-title {
 	min-height: 288px;
-	min-width: 608px;
+
 }
 .item-title-content{
 	top:0;
@@ -260,11 +260,11 @@ section h2 {
 }
 .item-title-2 {
 	padding-top: 50px;
-	min-width: 608px;
+
 }
 .item-title-content-2{
 	position: relative;
-	min-width: 608px;
+
 	padding-top: 120px;
 	line-height: 30px;
 	color: #FBFBFC;

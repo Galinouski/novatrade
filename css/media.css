@@ -199,7 +199,6 @@
 		display: block;
 	}
 	.item-title-2 {
-        min-width: min-content;
 		font-size: 40px;
 	}
 	.item-title-3 .arrow {
@@ -212,16 +211,13 @@
 	.item-title-content-3 {
 		font-size: 14px;
 		padding-right: 50px;
-		min-width: unset;
 	}
 	.item-title-content-2 {
-        min-width: unset;
 	}
 	.pattern-2 {
 		position: relative;
 	}
 	.item-title-3 {
-		min-width: min-content;
 		margin-right: 10px;
 	}
 	.item-title-6 {
@@ -250,7 +246,7 @@
 @media (max-width : 375px) {
 
 	.item-title-3 {
-		min-width: 344px;
+		min-width: 350px;
 		margin-right: 10px;
 	}
 	.item-title-3 .arrow {
@@ -260,10 +256,8 @@
 	.item-title-content-3 {
 		font-size: 14px;
 		padding-right: 50px;
-		min-width: unset;
 	}
 	.item-title-content-2 {
-        min-width: unset;
 		font-size: 16px;
 	}
 	.pattern-2 {
@@ -271,7 +265,6 @@
 		position: relative;
 	}
 	.item-title-2 {
-        min-width: min-content;
 		font-size: 40px;
 	}
 	
@@ -285,14 +278,13 @@
 	}
 	.item-title-content-5 {
 		padding-left: 5px;
-		min-width: unset;
 		padding-bottom: 40px;
 	}
 	.pattern{
 		padding-right: 10px;
 	}
 	.item-title-6 {
-		min-width: 340px;
+		min-width: 350px;
 		font-size: 16px;
 		margin-right: 10px;
 	}
@@ -316,9 +308,6 @@
 
 @media (max-width : 350px) {
 	
-	.item-title-3 {
-		min-width: 344px;
-	}
 	.item-title-3 .arrow {
 		padding-left: 310px;
 		padding-top: 10px;
@@ -327,10 +316,8 @@
 	.item-title-content-3 {
 		font-size: 14px;
 		padding-right: 50px;
-		min-width: unset;
 	}
 	.item-title-content-2 {
-        min-width: unset;
 		font-size: 16px;
 	}
 	.pattern-2 {
@@ -338,7 +325,6 @@
 		padding-right: 10px;
 	}
 	.item-title-2 {
-        min-width: min-content;
 		font-size: 40px;
 	}
 	.second-section h2 {
@@ -350,14 +336,12 @@
 	}
 	.item-title-content-5 {
 		padding-left: 5px;
-		min-width: unset;
 		padding-bottom: 40px;
 	}
 	.pattern{
 		padding-right: 10px;
 	}
 	.item-title-6 {
-		min-width: unset !important;
 		margin-right: 10px;
 	}
 	.item-title-content-7 .ul h3{
