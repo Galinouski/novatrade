@@ -369,7 +369,6 @@ section h2 {
 	font-weight: 600;
 	position: absolute;
 	display: inline-block;
-	/* min-width: 367px; */
 	padding-top: 30px;
 	padding-left: 30px;
 	text-align: left;
@@ -406,6 +405,13 @@ section h2 {
 	line-height: 24px;
 	text-align: left;
 
+}
+.item-title-content-7 .h2{
+    left: 266px;
+	position: absolute;
+    font-size: 22px;
+    color: #99A2B5;
+    font-weight: 600;
 }
 
 

@@ -173,6 +173,11 @@
         left: 596px;
 		font-size: 16px;
 	}
+	.item-title-content-7 .h2 {
+		left: 600px;
+		position: absolute;
+		font-size: 16px
+	}
 	.item-title-5 {
 		padding-bottom: 0px;
 	}
@@ -234,7 +239,11 @@
 	.item-title-5 {
 		padding-bottom: 0px;
 	}
-
+	.item-title-content-7 .h2 {
+		left: 600px;
+		position: absolute;
+		font-size: 16px
+	}
 }
 
 /* xs <= Small (sm) */
@@ -296,6 +305,12 @@
 		position: unset;
 		font-size: 16px;
 	}
+	.item-title-content-7 .h2 {
+		padding-left: 277px;
+		/* text-align: right; */
+		position: unset;
+		font-size: 16px;
+	}
 
 }
 
@@ -350,6 +365,12 @@
 	}
 	.item-title-content-7 h2 {
 		text-align: right;
+		position: unset;
+		font-size: 16px;
+	}
+	.item-title-content-7 .h2 {
+		padding-left: 277px;
+		/* text-align: right; */
 		position: unset;
 		font-size: 16px;
 	}

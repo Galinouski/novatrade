@@ -39,5 +39,22 @@ $(function() {
         
     });
 
+    $('.item-title-7').mouseover(function(e){
+
+        $(this).css("background-color", "#D4F2F3");
+        $(this).find('.item-title-content-7 h2').css("color", "#3CB3B6");
+        $(this).find('.h2').css("color", "#3CB3B6");
+
+    });
+
+    $('.item-title-7').mouseout(function(e){
+
+        $(this).css("background-color", "#fff");
+        $(this).find('.item-title-content-7 h2').css("color", "#99A2B5");
+        $(this).find('.h2').css("color", "#99A2B5");
+        
+    });
+
+
 });
     
