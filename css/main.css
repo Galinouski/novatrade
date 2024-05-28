@@ -69,7 +69,7 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	position: absolute;
-	left: 320px;
+	left: 430px;
 	line-height: 72px;
 }
 .hr-top{
@@ -240,7 +240,7 @@ section {
 }
 section h2 {
 	margin: 0;
-	font-size: 45px;
+	font-size: 52px;
 	letter-spacing: 0.08em;
 	font-weight: 400;
 
@@ -286,7 +286,6 @@ section h2 {
 }
 .item-title-content-3{
 	position: relative;
-	padding-right: 40px;
 	padding-top: 30px;
 	padding-left: 30px;
 	text-align: left;
@@ -297,7 +296,7 @@ section h2 {
 .item-title-3 .arrow{
 	display: inline-block;
 	position: absolute;
-	padding-left: 540px;
+	padding-left: 490px;
 	padding-top: 30px;
 }
 .item-title-4 {
@@ -317,13 +316,11 @@ section h2 {
 .second-section h2 {
 	margin: 0;
 	padding-top: 90px;
-	font-size: 56px;
 	letter-spacing: 0.08em;
 	font-weight: 600;
 }
 
 .item-title-5 {
-	padding-top: 50px;
 	color: #181C2C;
 }
 .item-title-content-5{
@@ -340,7 +337,6 @@ section h2 {
 
 .item-title-6 {
 	position: relative;
-	padding-right: 100px;
 	min-height: 112px;
 	border: #99A2B5 1px solid;
 	color: #FBFBFC;
