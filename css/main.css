@@ -310,7 +310,7 @@ section h2 {
 
 .second-section {
 	background-color: white;
-	padding-bottom: 20px;
+	padding-bottom: 70px;
 }
 .second-section h2 {
 	margin: 0;
@@ -452,9 +452,15 @@ section h2 {
 	letter-spacing: 0.04em;
 }
 .item-title-8 .union{
-	padding-left: 182px;
+	padding-left: 225px;
 	padding-top: 100px;
+	display: block;
 
+}
+.item-title-8 .union-sm{
+	padding-left: 175px;
+	padding-top: 20px;
+	display: none;
 }
 .item-title-9 {
 	position: relative;
