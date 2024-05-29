@@ -68,8 +68,9 @@
 		margin: 0;
 		font-size: 30px;
 	}
-	.item-title-3 .arrow {
-		padding-left: 590px;
+	.item-title-3 {
+		background-position-x: 150px;
+		background-position-y: 40px;
 	}
 	
 }
@@ -138,11 +139,6 @@
 	.item-title-6 {
 		min-width: 645px;
 	}
-	.item-title-3 .arrow {
-        padding-left: 585px;
-		font-size: 16px;
-		font-weight: 500;
-    }
 	.pattern {
         padding-right: 0;
 	}
@@ -186,8 +182,14 @@
 		min-height: unset;
 		font-size: 24px;
 	}
-	.item-title-8 .union {
-		padding-left: 225px;
+	.item-title-9 {
+		min-height: unset;
+	}
+	.item-title-content-8 {
+        font-size: 16px;
+	}
+	.item-title-content-9{
+        font-size: 16px;
 	}
 }
 
@@ -209,12 +211,10 @@
 	.item-title-2 {
 		font-size: 40px;
 	}
-	.item-title-3 .arrow {
-		padding-left: 420px;
-	}
-	.item-title-3 .arrow {
-		padding-left: 310px;
-		padding-top: 10px;
+
+	.item-title-3 {
+		background-position-x: 150px;
+		background-position-y: 40px;
 	}
 	.item-title-content-3 {
 		font-size: 14px;
@@ -256,11 +256,21 @@
 		min-height: unset;
 		font-size: 24px;
 	}
-	.item-title-8 .union {
-		display: none;
+	.background {
+		background-image: url(/images/union-small.png);
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+		padding-bottom: 20px;
 	}
-	.item-title-8 .union-sm {
-		display: block;
+	.item-title-9 {
+		min-height: unset;
+	}
+	.item-title-content-8 {
+        font-size: 16px;
+	}
+	.item-title-content-9{
+        font-size: 16px;
 	}
 }
 
@@ -271,9 +281,9 @@
 		min-width: 350px;
 		margin-right: 10px;
 	}
-	.item-title-3 .arrow {
-		padding-left: 310px;
-		padding-top: 10px;
+	.item-title-3 {
+		background-position-x: 150px;
+		background-position-y: 40px;
 	}
 	.item-title-content-3 {
 		font-size: 14px;
@@ -328,27 +338,37 @@
 	}
 	.item-title-content-8 {
 		min-height: unset;
+		padding-bottom: unset !important;
 		font-size: 24px;
 	}
 	.item-title-content-9 {
 		min-height: unset;
 		font-size: 24px;
 	}
-	.item-title-8 .union {
-		display: none;
+	.background {
+		background-image: url(/images/union-small.png);
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+		padding-bottom: 20px;
 	}
-	.item-title-8 .union-sm {
-		display: block;
+	.item-title-9 {
+		min-height: unset;
+	}
+	.item-title-content-8 {
+        font-size: 16px;
+	}
+	.item-title-content-9{
+        font-size: 16px;
 	}
 
 }
 
 @media (max-width : 350px) {
 	
-	.item-title-3 .arrow {
-		padding-left: 310px;
-		padding-top: 10px;
-		margin-right: 10px;
+	.item-title-3 {
+		background-position-x: 150px;
+		background-position-y: 40px;
 	}
 	.item-title-content-3 {
 		font-size: 14px;
@@ -392,21 +412,31 @@
 	}
 	.item-title-content-7 .h2 {
 		padding-left: 277px;
-		/* text-align: right; */
 		position: unset;
 		font-size: 16px;
 	}
 	.item-title-content-8 {
-		min-height: unset;
+		min-height: unset !important;
+		padding-bottom: unset;
 	}
 	.item-title-content-9 {
 		min-height: unset;
 	}
-	.item-title-8 .union {
-		display: none;
+	.background {
+		background-image: url(/images/union-small.png);
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: bottom;
+		padding-bottom: 20px;
 	}
-	.item-title-8 .union-sm {
-		display: block;
+	.item-title-9 {
+		min-height: unset;
+	}
+	.item-title-content-8 {
+        font-size: 16px;
+	}
+	.item-title-content-9{
+        font-size: 16px;
 	}
 }
 
