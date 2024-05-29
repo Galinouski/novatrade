@@ -69,7 +69,7 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	position: absolute;
-	left: 320px;
+	left: 352px;
 	line-height: 72px;
 }
 .hr-top{
@@ -264,7 +264,7 @@ section h2 {
 }
 .item-title-content-2{
 	position: relative;
-
+	padding-left: 20px;
 	padding-top: 120px;
 	line-height: 30px;
 	color: #FBFBFC;
@@ -388,10 +388,13 @@ section h2 {
 	min-width: fit-content;
 }
 .item-title-content-7 .ul .flag{
+	max-height: 30px;
+    display: inline-flex;
 	vertical-align: bottom;
     padding-right: 10px;
 }
 .item-title-content-7 .ul h3{
+	display: inline-flex;
 	color: #181C2C;
     font-size: 22px;
     font-weight: 800;
