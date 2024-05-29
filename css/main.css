@@ -296,12 +296,6 @@ section h2 {
 	z-index: 1;
 	letter-spacing: 0.04em;
 }
-.item-title-3 .arrow{
-	display: inline-block;
-	position: absolute;
-	padding-left: 550px;
-	padding-top: 30px;
-}
 .item-title-4 {
 	min-height: 50px;
 }
