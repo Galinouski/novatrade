@@ -68,9 +68,6 @@
 		margin: 0;
 		font-size: 30px;
 	}
-	.pattern{
-		padding-right: 10px;
-	}
 	.item-title-3 .arrow {
 		padding-left: 590px;
 	}
@@ -142,7 +139,7 @@
 		min-width: 645px;
 	}
 	.item-title-3 .arrow {
-        padding-left: 520px;
+        padding-left: 585px;
 		font-size: 16px;
 		font-weight: 500;
     }
