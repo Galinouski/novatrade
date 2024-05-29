@@ -59,7 +59,6 @@
 	.item-title-3 .item-title-content-1 {
 		position: relative;
 		padding: 20px 20px;
-		min-width: unset;
 	}
 	section{
 		padding-top: 50px;
@@ -73,7 +72,6 @@
 		background-position-y: 40px;
 	}
 	.item-title-3 {
-		min-width: 645px;
 		background-position-x: 570px;
 		background-position-y: 40px;
 	}
@@ -92,7 +90,6 @@
 		display: none;
 	}
 	.item-title-3 {
-		min-width: 645px;
 		background-position-x: 570px;
 		background-position-y: 40px;
 	}
@@ -112,7 +109,6 @@
 		display: none;
 	}
 	.item-title-3 {
-		min-width: 645px;
 		background-position-x: 570px;
 		background-position-y: 40px;
 	}
@@ -133,7 +129,6 @@
 		max-width: unset !important;
 	}
 	.item-title-3 {
-		min-width: 645px;
 		background-position-x: 570px;
 		background-position-y: 40px;
 	}
@@ -154,7 +149,6 @@
 		min-width: min-content;
 	}
 	.item-title-3 {
-		min-width: 645px;
 		background-position-x: 570px;
 		background-position-y: 40px;
 	}
@@ -173,7 +167,7 @@
 	.item-title-5{
 		padding-top: 20px;
 	}
-	.item-title-content-5 {
+	.item-title-5 .item-title-content-1 {
 		padding-left: 5px;
 		min-width: unset;
 		padding-bottom: 40px;
@@ -182,13 +176,13 @@
 	.container{
 		max-width: unset !important;
 	}
-	.item-title-content-7 h2 {
+	.item-title-7 .item-title-content-1 h2 {
 		position: absolute;
 		top: 21px;
         left: 596px;
 		font-size: 16px;
 	}
-	.item-title-content-7 .h2 {
+	.item-title-7 .item-title-content-1 .h2 {
 		left: 600px;
 		position: absolute;
 		font-size: 16px
@@ -196,10 +190,10 @@
 	.item-title-5 {
 		padding-bottom: 0px;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1. {
 		min-height: unset;
 		font-size: 24px;
-	}
+	} 
 	.item-title-content-9 {
 		min-height: unset;
 		font-size: 24px;
@@ -207,7 +201,7 @@
 	.item-title-9 {
 		min-height: unset;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
         font-size: 16px;
 	}
 	.item-title-content-9{
@@ -241,7 +235,6 @@
 	.item-title-3 {
 		background-position-x: 370px;
 		background-position-y: 40px;
-		min-width: 400px;
 	}
 	.item-title-3 .item-title-content-1 {
 		font-size: 14px;
@@ -250,16 +243,10 @@
 	.pattern-2 {
 		position: relative;
 	}
-	.item-title-3 {
-		margin-right: 10px;
-	}
-	.item-title-6 {
-		margin-right: 10px;
-	}
 	.container{
 		max-width: unset !important;
 	}
-	.item-title-content-7 h2 {
+	.item-title-7 .item-title-content-1 h2 {
 		position: absolute;
 		top: 21px;
         left: 596px;
@@ -268,12 +255,12 @@
 	.item-title-5 {
 		padding-bottom: 0px;
 	}
-	.item-title-content-7 .h2 {
+	.item-title-7 .item-title-content-1 .h2 {
 		left: 600px;
 		position: absolute;
 		font-size: 16px
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
 		min-height: unset;
 		font-size: 24px;
 	}
@@ -291,7 +278,7 @@
 	.item-title-9 {
 		min-height: unset;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
         font-size: 16px;
 	}
 	.item-title-content-9{
@@ -303,10 +290,10 @@
 @media (max-width : 375px) {
 
 	.item-title-3 {
-		min-width: 350px;
 		margin-right: 10px;
 	}
 	.item-title-3 {
+		min-width: 355px;
 		background-position-x: 300px;
 		background-position-y: 40px;
 	}
@@ -339,7 +326,7 @@
 		padding-top: 20px;
 		padding-bottom: 0px;
 	}
-	.item-title-content-5 {
+	.item-title-5 .item-title-content-1 {
 		padding-left: 5px;
 		padding-bottom: 40px;
 	}
@@ -352,20 +339,20 @@
 		margin-right: 10px;
 	}
 
-	.item-title-content-7 .ul h3{
+	.item-title-7 .item-title-content-1 .ul h3{
 		padding-top: 0px;
 	}
-	.item-title-content-7 h2 {
+	.item-title-7 .item-title-content-1 h2 {
 		text-align: right;
 		position: unset;
 		font-size: 16px;
 	}
-	.item-title-content-7 .h2 {
+	.item-title-7 .item-title-content-1 .h2 {
 		padding-left: 277px;
 		position: unset;
 		font-size: 16px;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
 		min-height: unset;
 		padding-bottom: unset !important;
 		font-size: 24px;
@@ -384,13 +371,13 @@
 	.item-title-9 {
 		min-height: unset;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
         font-size: 16px;
 	}
 	.item-title-content-9{
         font-size: 16px;
 	}
-	.fourth-section .item-title-content {
+	.fourth-section .item-title-content-1 {
 		font-size: 16px;
 		min-width: auto;
 	}
@@ -433,7 +420,7 @@
 	.item-title-5{
 		padding-top: 20px;
 	}
-	.item-title-content-5 {
+	.item-title-5 .item-title-content-1 {
 		padding-left: 5px;
 		padding-bottom: 40px;
 	}
@@ -443,20 +430,20 @@
 	.item-title-6 {
 		margin-right: 10px;
 	}
-	.item-title-content-7 .ul h3{
+	.item-title-7 .item-title-content-1 .ul h3{
 		padding-top: 0px;
 	}
-	.item-title-content-7 h2 {
+	.item-title-7 .item-title-content-1 h2 {
 		text-align: right;
 		position: unset;
 		font-size: 16px;
 	}
-	.item-title-content-7 .h2 {
+	.item-title-7 .item-title-content-1 .h2 {
 		padding-left: 277px;
 		position: unset;
 		font-size: 16px;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
 		min-height: unset !important;
 		padding-bottom: unset;
 	}
@@ -473,13 +460,13 @@
 	.item-title-9 {
 		min-height: unset;
 	}
-	.item-title-content-8 {
+	.item-title-8 .item-title-content-1 {
         font-size: 16px;
 	}
 	.item-title-content-9{
         font-size: 16px;
 	}
-	.fourth-section .item-title-content {
+	.fourth-section .item-title-content-1 {
 		font-size: 16px;
 	}
 	.fifth-section .item-title-content {
