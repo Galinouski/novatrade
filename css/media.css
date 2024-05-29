@@ -362,6 +362,10 @@
 	.item-title-content-9{
         font-size: 16px;
 	}
+	.fourth-section .item-title-content {
+		font-size: 16px;
+		min-width: auto;
+	}
 
 }
 
@@ -437,6 +441,9 @@
 	}
 	.item-title-content-9{
         font-size: 16px;
+	}
+	.fourth-section .item-title-content {
+		font-size: 16px;
 	}
 }
 
