@@ -3,55 +3,51 @@ $(function() {
     $('.mobile-menu-button').click(function(e){
         $('.mobile-menu').stop().slideToggle(200);
         e.preventDefault();
-
-        if($('.mobile-menu-button>img').attr('src') == "images/cross.png")
-        {
-            $('.mobile-menu-button>img').attr('src',"images/menu.png");
+        if ($(this).hasClass('open-nav')) {
+            $(this).removeClass('open-nav');
+        } else {
+            $(this).addClass('open-nav');
         }
-        else $('.mobile-menu-button>img').attr('src',"images/cross.png");
     });
-    $('#first').mouseover(function(e){
+    $('#first, #second').mouseover(function(e){
 
-        $(this).css("background-image","url('/images/arrow-right.png')");
-        $(this).css("background-color", "#36DFE3");
-        $(this).css("color", "#181C2C");
-
+        if ($(this).hasClass('mouse-over')) {
+            $(this).removeClass('mouse-over');
+        } else {
+            $(this).addClass('mouse-over');
+        }
     });
-    $('#first').mouseout(function(e){
-
-        $(this).css("background-image","url('/images/w-arrow-right.png')");
-        $(this).css("background-color", "#1B424D");
-        $(this).css("color", "#FBFBFC");
-        
-    });
-    $('#second').mouseover(function(e){
-
-        $(this).css("background-image","url('/images/arrow-right.png')");
-        $(this).css("background-color", "#36DFE3");
-        $(this).css("color", "#181C2C");
-
-    });
-    $('#second').mouseout(function(e){
-
-        $(this).css("background-image","url('/images/w-arrow-right.png')");
-        $(this).css("background-color", "#1B424D");
-        $(this).css("color", "#FBFBFC");
-        
+    $('#first, #second').mouseout(function(e){
+        if ($(this).hasClass('mouse-over')) {
+            $(this).removeClass('mouse-over');
+        } else {
+            $(this).addClass('mouse-over');
+        }  
     });
 
     $('.item-title-7').mouseover(function(e){
 
-        $(this).css("background-color", "#D4F2F3");
         $(this).find('.item-title-content-7 h2').css("color", "#3CB3B6");
         $(this).find('.h2').css("color", "#3CB3B6");
+
+        if ($(this).hasClass('mouse-over-flag')) {
+            $(this).removeClass('mouse-over-flag');
+        } else {
+            $(this).addClass('mouse-over-flag');
+        }
 
     });
 
     $('.item-title-7').mouseout(function(e){
 
-        $(this).css("background-color", "#fff");
         $(this).find('.item-title-content-7 h2').css("color", "#99A2B5");
         $(this).find('.h2').css("color", "#99A2B5");
+
+        if ($(this).hasClass('mouse-over-flag')) {
+            $(this).removeClass('mouse-over-flag');
+        } else {
+            $(this).addClass('mouse-over-flag');
+        }
         
     });
 
