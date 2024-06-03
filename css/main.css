@@ -79,26 +79,18 @@ section h2 {
 
 .top-line{
 	background-color: var(--accent2);
-	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	height: 72px;
-
 }
 
 .main-logo{
-	left: 0px;
-    top: 20px;
-    position: absolute;
+	display: inline-flex;
+    align-items: center;
+    flex-grow: 2;
 }
 
-.logo{
-	font-family: var(--userfont) ;
-	color: var(--accent);
-	display: inline-block;
-	text-decoration: none;
-	position: absolute;
-	left: 352px;
-	line-height: 72px;
-}
 .hr-top{
 	top: 72px;
 	height: 2px !important;
@@ -106,7 +98,7 @@ section h2 {
 	margin: 0;
 }
 .main-menu{
-	padding: 0 140px 0 0;
+	display: inline-flex;
 	width: 100%;
 	text-align: center;
 	font-family: IBM Plex Sans;
@@ -118,6 +110,7 @@ section h2 {
 }
 
 .main-menu ul{
+	display: inline-flex;
 	list-style-type: none;
 	margin: 0;
 }
@@ -146,9 +139,8 @@ section h2 {
 }
 
 .phone-wrap {
-	position: absolute;
-    right: 0px;
-    top: 0;
+	display: inline-flex;
+	padding-left: 20px;
 }
 
 .phone-wrap ul{
@@ -766,34 +758,39 @@ section h2 {
 }
 
 .six-section .item-title .item-title-content{
-	padding-top: 30px;
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
 	color:#3CB3B6;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 500;
+	padding-top: 10px;
+}
+
+.six-section .item-title .item-title-content .text{
+
+	flex: auto;
 }
 
 .six-section .item-title .item-title-content .logo{
-	bottom: 10px;
-	left: 200px;
-    display: block;
+	display: inline-flex;
+    bottom: 10px;
+    left: 250px;
+    align-items: center;
 }
 .six-section .item-title .item-title-content .logo-text {
     letter-spacing: 1.2px;
     font-weight: 550;
     color: white;
     font-size: 20px;
-    bottom: 20px;
-    left: 500px;
-    text-align: left;
-    position: absolute;
-    display: block;
+    flex: auto;
+	text-align: justify;
+	padding-left: 20px;
 }
 
 .six-section .item-title .item-title-content .logo-2{
-	bottom: 15px;
-    right: 200px;
-    position: absolute;
+    flex: auto;
     text-align: right;
 }
 
@@ -831,9 +828,11 @@ section h2 {
 }
 
 .seven-section .item-title .item-title-content-2{
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
 	font-family: IBM Plex Serif;
 	padding-top: 40px;
-    position: relative;
     font-size: 28px;
     font-style: italic;
     font-weight: 500;
@@ -842,12 +841,15 @@ section h2 {
     letter-spacing: -1.8px;
 
 }
+.seven-section .item-title .item-title-content-2 .text-3{
+	display: inline-flex;
+	align-items: flex-start;
+	flex-grow: 2;
+}
 
 .seven-section .item-title .item-title-content-2 .button{
-
+	display: inline-flex;
 	font-family: IBM Plex Sans;
-    right: 0px;
-    position: absolute;
     padding: 15px;
     color: black;
     border-radius: 8px;
@@ -869,8 +871,21 @@ section h2 {
 	padding-bottom: 20px;
 }
 
+.seven-section .item-title .item-title-content-1 .main-text {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	border-top: #99A2B5 1px solid;	
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 28px;
+	padding: 10px;
+}
+
 .seven-section .item-title .item-title-content-1 .text-1 {
-	display: inline-block;
+	display: inline-flex;
+	align-items: flex-start;
+	flex-grow: 2;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 28px;
@@ -878,9 +893,8 @@ section h2 {
 }
 
 .seven-section .item-title .item-title-content-1 .text-2 {
-	position: absolute;
-	right: 0;
-	display: inline-block;
+	display: inline-flex;
+	align-items: flex-end;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 28px;
@@ -934,9 +948,12 @@ section h2 {
 }
 
 .eight-section .item-title .item-title-content-3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	column-gap: 30px;
 	font-family: IBM Plex Serif;
 	padding-top: 40px;
-    position: relative;
     font-size: 28px;
     font-style: italic;
     font-weight: 500;
@@ -945,15 +962,20 @@ section h2 {
     letter-spacing: -1.8px;
 
 }
+.eight-section .item-title .item-title-content-3 .text{
+	display: inline-flex;
+	align-items: flex-start;
+	font-size: 28px;
+}
 .eight-section .item-title-content-1 {
     padding-left: 0px; 
 }
 
 .eight-section .item-title .item-title-content-3 .button{
 
+	display: inline-flex;
+	align-items: flex-end;
 	font-family: IBM Plex Sans;
-    right: 80px;
-    position: absolute;
     padding: 15px;
     color: black;
     border-radius: 8px;
